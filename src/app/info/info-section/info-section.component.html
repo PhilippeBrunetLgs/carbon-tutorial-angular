@@ -1,0 +1,29 @@
+<section ibmRow class="info-section info-section__r1">
+  <div ibmCol [columnNumbers]="{'md': 8, 'lg': 4}">
+    <h3 class="info-section__heading">The Principles</h3>
+  </div>
+  <app-info-card
+    ibmCol
+    [columnNumbers]="{'md': 4, 'lg': 4}"
+    [heading]="datas.items[0].heading"
+    [content]="datas.items[0].content"
+  >
+    <svg icon ibmIconPersonFavorite size="32"></svg>
+  </app-info-card>
+  <app-info-card
+    ibmCol
+    [columnNumbers]="{'md': 4, 'lg': 4}"
+    [heading]="datas.items[1].heading"
+    [content]="datas.items[1].content"
+  >
+    <svg icon ibmIconApplication size="32" ></svg>
+  </app-info-card>
+  <app-info-card
+    ibmCol
+    [columnNumbers]="{'md': 4, 'lg': 4}"
+    [heading]="datas.items[2].heading"
+    [content]="datas.items[2].content"
+  >
+    <svg icon ibmIconGlobe size="32" ></svg>
+  </app-info-card>
+</section>

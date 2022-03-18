@@ -23,7 +23,8 @@
     ],
     "typeRoots": [
       "node_modules/@types"
-    ]
+    ],
+    "resolveJsonModule": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
